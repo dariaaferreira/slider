@@ -10,6 +10,11 @@ body {
   margin: 0 auto;
 }
 
+p,h2 {
+  margin: 0;
+  padding: 0;
+}
+
 .container {
   display: flex;
   justify-content: center;
@@ -91,7 +96,6 @@ body {
 }
 .slider__contents {
   height: 100%;
-  padding: 2rem;
   text-align: center;
   display: -webkit-box;
   display: -webkit-flex;
@@ -131,8 +135,10 @@ body {
   font-weight: 500;
   font-size: 16px;
   color: #131313;
+
 }
 .slider__txt {
+  margin-bottom: 32px;
   font-family: 'Montserrat';
   font-size: 17px;
   line-height: 186%;
